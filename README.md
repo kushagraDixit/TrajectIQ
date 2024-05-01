@@ -45,6 +45,3 @@ Once the SLURM starts running the program it will create a file traject_iq-{Job_
 2. Output2 - This file contain the outputs of model pre-training step.
 3. Output3 - This file contain the evaluation results.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
