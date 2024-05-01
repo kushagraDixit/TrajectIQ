@@ -6,9 +6,9 @@ TrajectIQ is a BERT based trajectory imputation system that addresses the challe
 
 To download the code run the command in terminal:
 
-'''python
+```python
 git clone git@github.com:kushagraDixit/TrajectIQ.git
-'''
+```
 
 ## Creation Additional Directories
 
@@ -27,7 +27,7 @@ The code has 3 modes:
 
 Given with the code is a file run.sh which can be run directly on the SLURM Scheduler with CHPC. You need to change the following configuration in the file:
 
-'''python
+```python
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/uufs/chpc.utah.edu/common/home/u1472614/miniconda3/lib
 export MODEL='roberta' #Select between bert/roberta
 export SEED=0
@@ -35,7 +35,7 @@ export RES=9 #Resolution of H3 clusters
 export DIR_PATH='{path_to_directory (put '/' in the end)}'
 export SCRDIR="{Path to a folder for logging}"
 export WORKDIR="{Path to working directory}"
-'''
+```
 
 ## Reading Results
 
