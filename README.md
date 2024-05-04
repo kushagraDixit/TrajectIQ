@@ -14,7 +14,9 @@ git clone git@github.com:kushagraDixit/TrajectIQ.git
 
 Create conda environment with the given file
 
+```python
 conda env create --name envname --file=env_tiq.yml
+```
 
 ## Creation Additional Directories
 
