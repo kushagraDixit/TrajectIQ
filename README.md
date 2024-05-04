@@ -10,6 +10,12 @@ To download the code run the command in terminal:
 git clone git@github.com:kushagraDixit/TrajectIQ.git
 ```
 
+# Create Environment
+
+Create conda environment with the given file
+
+conda env create --name envname --file=env_tiq.yml
+
 ## Creation Additional Directories
 
 To run the code you need the training data and a directory structure that will store all the data and weights of Model. To create the directory stucture run the file create_directories.py. We need space of 7-8 GB for storing the model. Provide the path for directory with the argutents as given in the example:
@@ -44,4 +50,3 @@ Once the SLURM starts running the program it will create a file traject_iq-{Job_
 1. Output1 - This file is for preprocessing mode and contains the some data statistics
 2. Output2 - This file contain the outputs of model pre-training step.
 3. Output3 - This file contain the evaluation results.
-
