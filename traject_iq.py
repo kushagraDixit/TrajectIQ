@@ -110,7 +110,7 @@ def trainModel(model, model_folder, data_collator, train_dataset, eval_dataset):
         overwrite_output_dir=True,
         num_train_epochs=1,
         per_device_train_batch_size=32,
-        save_steps=1_000,
+        save_steps=10_000,
         save_total_limit=2,
     )
 
